@@ -139,7 +139,6 @@
 				17E51CC5769FC46C2C9F6B29 /* Pods-SUIMVVMDemo.debug.xcconfig */,
 				BC44498C8ACEAEE94F78F047 /* Pods-SUIMVVMDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -564,6 +563,7 @@
 				TargetAttributes = {
 					6DB118401C7800BD00678885 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = M8FZJBTA43;
 					};
 				};
 			};
@@ -572,6 +572,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -784,11 +785,12 @@
 			baseConfigurationReference = 17E51CC5769FC46C2C9F6B29 /* Pods-SUIMVVMDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8FZJBTA43;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = SUIMVVMDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lovemo.SUIMVVMDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqi.SUIMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -798,11 +800,12 @@
 			baseConfigurationReference = BC44498C8ACEAEE94F78F047 /* Pods-SUIMVVMDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8FZJBTA43;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = SUIMVVMDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lovemo.SUIMVVMDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqi.SUIMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
