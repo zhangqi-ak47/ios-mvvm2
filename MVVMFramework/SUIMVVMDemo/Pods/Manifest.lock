@@ -1,0 +1,71 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.2.0)
+  - SUIUtils (0.0.2):
+    - SUIUtils/Foundation (= 0.0.2)
+    - SUIUtils/Helper (= 0.0.2)
+    - SUIUtils/Tool (= 0.0.2)
+    - SUIUtils/UIKit (= 0.0.2)
+  - SUIUtils/Foundation (0.0.2):
+    - SUIUtils/Tool
+  - SUIUtils/Helper (0.0.2):
+    - SUIUtils/UIKit
+    - "UITableView+FDTemplateLayoutCell (~> 1.4)"
+  - SUIUtils/Tool (0.0.2)
+  - SUIUtils/UIKit (0.0.2):
+    - SUIUtils/Foundation
+  - "UITableView+FDTemplateLayoutCell (1.4)"
+
+DEPENDENCIES:
+  - AFNetworking (>= 3.0)
+  - FMDB
+  - MJExtension
+  - MJRefresh
+  - SUIUtils (from `https://github.com/randomprocess/SUIUtils`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FMDB
+    - MJExtension
+    - MJRefresh
+    - "UITableView+FDTemplateLayoutCell"
+
+EXTERNAL SOURCES:
+  SUIUtils:
+    :git: https://github.com/randomprocess/SUIUtils
+
+CHECKOUT OPTIONS:
+  SUIUtils:
+    :commit: f0685ad7a76db3f5880fc3fbe894b31a2085d308
+    :git: https://github.com/randomprocess/SUIUtils
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SUIUtils: b4dc603df7a7f08dab0005522353414260a1b719
+  "UITableView+FDTemplateLayoutCell": 234e1582bcc4e18461af91155123bb96538ed030
+
+PODFILE CHECKSUM: 6709b2b7cf16ba5f1d00031bc98f040288941420
+
+COCOAPODS: 1.8.4
